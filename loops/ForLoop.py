@@ -21,3 +21,11 @@ for item in my_list:
     print(item)
 
 # Q2 : search for a number x in this tuple using for loop.   
+my_tuple = (5, 10, 15, 20, 25, 30)
+x = int(input("Enter a number to search in the tuple: "))
+for item in my_tuple:
+    if item == x:
+        print(f"Number {x} found in the tuple.")
+        break
+else:
+    print(f"Number {x} not found in the tuple.")        
