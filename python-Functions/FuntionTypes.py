@@ -69,7 +69,7 @@ def calculate_factorial(n):
         print(fact)
     print(fact)
 
-# calculate_factorial(5)  
+calculate_factorial(5)  
 
 # def calculate_factorial(n):
 
