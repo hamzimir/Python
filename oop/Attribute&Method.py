@@ -73,3 +73,17 @@ class MyClass:
 
 MyClass.static_method()
 
+# ------------------------------------------
+
+# del keyword:-  del keyword is used to delete an attribute or method of a class and 
+# it also delete whole class
+
+class MyClass:
+    students = 10
+    def instance_method(self):
+     print("This is an instance method")
+
+obj = MyClass()
+del obj.student
+del obj.instance_method
+
